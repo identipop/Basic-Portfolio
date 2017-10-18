@@ -2,8 +2,8 @@ header{
 	background-color: #164D80;
 	text-align: left;
 	float: left;
-	margin: 0px 100px 0px 159px;
-	padding: 6px 20px;
+	margin: 0px 0px 0px 100px;
+	padding: 6px 10px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #FFFFFF;
 	
@@ -36,12 +36,13 @@ body {
 h1 {
 	
 
-
 }
 
 h2 {
 	font-size:30px;
 	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #1A4F7E;
+
 }
 
 h3 {
@@ -63,10 +64,8 @@ p{
 	{
 		float: left;
 		background-color: white;
-		padding: 20px;
-		margin-bottom: 20px;
-
-	}
+		padding: 10px;	
+		;}
 
 
 #bio-image
@@ -75,21 +74,27 @@ p{
 	}
 
 #main-bio {
-	width: 65%;
-	margin-right: 20px;
 	margin-top: 20px;
 	border-style: solid;
 	border-color: #D9D9D9;
 	border-width: 1px;
+	margin-bottom: 20px;
+	width: 630px;
+
+
 }
 
 #connect-info{
-	width: 24%;
+	width: 250px;
 	margin-top: 20px;
 	border-style: solid;
 	border-color: #D9D9D9;
 	border-width: 1px;
+	margin-bottom: 20px;
+
 }
+
+
 
 .clearfix::after {
     content: "";
